@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando conta</title>
+    <link rel="stylesheet" href="indexx.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"> GitHub</div>
+            <ul class="nav-links">
+                <li><a href="criandoconta.html">criando conta</a></li>
+                <li><a href="indexx.html">introdução ao git</a></li>
+                <li class="dropdown">
+                    <a href="#about" class="dropbtn">Sobre</a>
+                    <div class="dropdown-content">
+                        <a href="#team">Equipe</a>
+                        <a href="#company">Empresa</a>
+                    </div>
+                </li>
+                <li><a href="Repositórios.html">Repositorio</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="pika">ROLA GIGANTONA</h1>
+    <br>
+    <h2>Como criar uma conta no GitHub?</h2>
+    <br>
+    <h3>1.Navegue até https://github.com/. <br>
+
+        2.Clique em Inscreva-se. <br>
+        
+        3.Siga os prompts para criar sua conta pessoal. <br>
+        
+        4.faça o CAPTCHA se preciso </h3>
+    <br>
+    <h2>Quais são os primeiros passos após a criação da conta no GitHub?</h2>
+    <br>
+    <h3>
+    1.Você pode alterar sua foto de perfil se quiser. 
+    <br>
+    2.alterar sua biografia 
+    <br>
+    3.caso você quiser pode criar um repositório com o nome do perfil que fara um repositório especia em que você pode fazer uma bio mais bonita colocando gif e outras coisas se quiser pode usar esse link para decorar mais: kibum.com.br/stacks  
+    </h3>
+    <br>
+    <h2>Como configurar o Git no seu computador local para se conectar ao GitHub?</h2>
+    <br>
+    <h3>Passo 1: Instalar o Git 
+
+
+
+        Baixe e instale o Git a partir do site oficial: [Git Download](https://git-scm.com/downloads). 
+        
+          
+        <br>
+        Passo 2: Configurar o Git 
+        
+          
+        <br>
+        Abra o terminal e configure seu nome de usuário e email do GitHub: 
+        <br>
+          git config --global user.name "Seu Nome" 
+        <br>
+          git config --global user.email "seu-email@exemplo.com" 
+        
+          <br>
+        
+        Passo 3: Escolher a forma de autenticação 
+        
+          <br>
+        
+        -Autenticação via HTTPS: Simples de configurar e usar, ideal para a maioria dos usuários. 
+        <br>
+          - Clone um repositório: 
+        <br>
+            git clone https://github.com/nome-de-usuario/nome-do-repositorio.git 
+        
+          
+        <br>
+          - Adicione arquivos, faça commit e envie para o GitHub: 
+        <br>
+            git add . 
+        <br>
+            git commit -m "Mensagem do commit" 
+        <br>
+            git push origin master 
+        
+          
+        <br>
+        -Autenticação via SSH (mais seguro): Requer configurar chaves SSH. 
+        <br>
+          - Gere uma chave SSH (se não tiver uma): 
+        <br>
+            ssh-keygen -t rsa -b 4096 -C "seu-email@exemplo.com" 
+        
+            <br>
+        
+          - Adicione a chave SSH ao ssh-agent e ao GitHub. 
+        
+           <br>
+        
+          - Clone e gerencie repositórios usando URLs SSH: 
+        <br>
+            git clone git@github.com:nome-de-usuario/nome-do-repositorio.git 
+        
+          
+        
+          
+        <br>
+        Repositórios 
+    </h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
